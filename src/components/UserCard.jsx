@@ -8,7 +8,7 @@ const UserCard = ({ user, deleteUser, handleClickEdit }) => {
         
 
                 <img className='w-[150px] h-[175px] object-cover mx-auto rounded-md m-2'
-                    src={user.image_url ? user.image_url : "/public/no-profile.jpg"} alt="No image" />
+                    src={user.image_url ? user.image_url : "/image/no-profile.jpg"} alt="No image" />
             </div>
            <hr />
             <h3 className='text-[25px] font-bold text-center'>{user.first_name} {user.last_name}</h3>
